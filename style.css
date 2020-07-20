@@ -6,7 +6,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-color: rgb(240, 240, 34);
+    background-color: teal;
 }
 h1 {
     position: absolute;
@@ -16,8 +16,10 @@ h1 {
     font-size: 50px;
     text-align: center;
     padding: 10px;
+    font-family: Helvetica, sans-serif;
+    color: purple;
 }
-#word1 {
+/* #word1 {
     text-transform: uppercase;
     color: lightblue;
     font-family: Helvetica, sans-serif;
@@ -26,4 +28,4 @@ h1 {
     text-transform: lowercase;
     color: red;
     font-family: Arial, sans-serif;
-}
+} */
