@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(240, 240, 34);
+}
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+}
+#word1 {
+    text-transform: uppercase;
+    color: lightblue;
+    font-family: Helvetica, sans-serif;
+}
+#word2 {
+    text-transform: lowercase;
+    color: red;
+    font-family: Arial, sans-serif;
+}
